@@ -1,3 +1,3 @@
-# PussTheCat.org
+# [PussTheCat.org](https://pussthecat.org/)
 
-The PussTheCat.org source code.
+The [PussTheCat.org](https://pussthecat.org/) source code.

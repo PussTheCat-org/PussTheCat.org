@@ -1,0 +1,16 @@
+body {
+background: #121212;
+color: #ffffff;
+font: 1.2em "Liberation Sans", sans-serif;
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+.svg {
+width: 200px;
+}
