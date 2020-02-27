@@ -14,3 +14,14 @@ font: 1.2em "Liberation Sans", sans-serif;
 .svg {
 width: 200px;
 }
+
+#hidden {
+  display: none;
+  position: absolute;
+  top: 99%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+:checked + #hidden {
+  display: block;
+}
