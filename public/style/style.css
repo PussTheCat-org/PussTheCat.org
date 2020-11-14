@@ -17,6 +17,7 @@ width: 200px;
 
 .word-wrap {
 word-wrap: break-word;
+overflow: hidden;
 }
 
 #hidden {
