@@ -15,6 +15,10 @@ font: 1.2em "Liberation Sans", sans-serif;
 width: 200px;
 }
 
+.word-wrap {
+word-wrap: break-word;
+}
+
 #hidden {
   display: none;
   position: absolute;
@@ -25,3 +29,4 @@ width: 200px;
 :checked + #hidden {
   display: block;
 }
+
