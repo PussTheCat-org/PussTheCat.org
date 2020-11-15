@@ -28,4 +28,3 @@ overflow: hidden;
 :checked + #hidden {
   display: block;
 }
-
