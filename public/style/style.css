@@ -23,7 +23,7 @@ overflow: hidden;
 #hidden {
   display: none;
   position: absolute;
-  top: 99%;
+  top: 105%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
