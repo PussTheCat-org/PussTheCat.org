@@ -1,0 +1,7 @@
+Basic scaling:
+
+convert source.png -resize 250x250\! destination.png; 
+
+Basic scaling (no anti-aliasing): 
+
+convert source.png -filter point -resize 250x250\! destination.png; 
