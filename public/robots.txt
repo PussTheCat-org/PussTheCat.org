@@ -1,4 +1,8 @@
 User-Agent: *
 Allow: /$
 Allow: /index.html
+Allow: /about
+Allow: /donate
+Allow: /cod4
+Allow: /minecraft
 Disallow: /
