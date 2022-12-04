@@ -5,4 +5,5 @@ Allow: /about
 Allow: /donate
 Allow: /cod4
 Allow: /invidious
+Allow: /searx
 Disallow: /
