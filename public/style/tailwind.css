@@ -386,6 +386,19 @@ code {
   margin-bottom: 0;
 }
 
+/* Screen-reader-only: visually hidden, but visible to text browsers like lynx/w3m */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Stretched link: overlay covers the whole card */
 .stretched-link {
   position: absolute;
