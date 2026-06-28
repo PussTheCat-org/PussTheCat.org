@@ -6,110 +6,110 @@
   <meta name="description" content="PussTheCat.org provides access to open source services that are focused on privacy and video games servers.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style/bootstrap.css">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/tailwind.css">
   <link rel="me" href="https://libretooth.gr/@TheFrenchGhosty">
 </head>
 
 <body>
-<nav class="navbar navbar-dark bg-dark navbar-expand fixed-top">
+
+<nav class="navbar fixed top-0 inset-x-0 z-50 backdrop-blur">
   <div class="container">
     <a class="navbar-brand" href="#">PussTheCat.org</a>
     <ul class="navbar-nav">
-      <a class="nav-link" href="https://thefrenchghosty.me/">TheFrenchGhosty's Website</a>
+      <li><a class="nav-link" href="https://thefrenchghosty.me/">TheFrenchGhosty's Website</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="container">
-<div class="jumbotron my-5 bg-dark">
+  <div class="jumbotron mb-8">
     <h1 class="display-4 word-wrap"><strong>PussTheCat.org</strong></h1>
-    <div class="media">
-      <div class="media-left media-middle">
-          <img class="media-object" src="images/logo.png">
+    <div class="flex items-center gap-4 my-2">
+      <div class="flex-shrink-0">
+          <img src="images/logo.png" alt="PussTheCat.org Logo">
       </div>
-      <p class="align-self-center my-2 word-wrap">PussTheCat.org provides access to open source services that are focused on privacy and video games servers.
+      <p class="self-center word-wrap">PussTheCat.org provides access to open source services that are focused on privacy and video games servers.
       <br><br>
-      PussTheCat.org is based entirely on a non-profit basis, however since it's not the most sustainable thing, we strongly encourage you to  <a class="text-muted" href="https://pussthecat.org/donate/">donate</a> if you can.</p>
+      PussTheCat.org is based entirely on a non-profit basis, however since it's not the most sustainable thing, we strongly encourage you to <a href="https://pussthecat.org/donate/">donate</a> if you can.</p>
     </div>
+  </div>
 </div>
-</div>
 
-<p class="text-center mb-0 my-5 word-wrap">Public Matrix discussion and status room: <a class="text-muted" href="https://matrix.to/#/#pussthecat.org:pussthecat.org">#pussthecat.org:pussthecat.org</a></p>
+<p class="text-center mb-0 my-8 word-wrap">Public Matrix discussion and status room: <a href="https://matrix.to/#/#pussthecat.org:pussthecat.org">#pussthecat.org:pussthecat.org</a></p>
 
-<p class="text-center mb-0 my-5 word-wrap"><a href="https://pussthecat.org/donate/"><img alt="Donate" src="images/liberapay.svg"></a></p>
+<p class="text-center mb-0 my-8 word-wrap"><a href="https://pussthecat.org/donate/"><img alt="Donate" src="images/liberapay.svg"></a></p>
 
-<p class="text-center mb-0 my-5 word-wrap">Status page: <a class="text-muted" href="https://status.pussthecat.org/">status.pussthecat.org</a></p>
+<p class="text-center mb-0 my-8 word-wrap">Status page: <a href="https://status.pussthecat.org/">status.pussthecat.org</a></p>
 
 <section id="services">
     <div class="container">
-        <h2 class="text-center mb-0 my-5"><b>Services:</b></h2>
+        <h2 class="text-center mb-0 my-8 text-3xl font-bold"><b>Services:</b></h2>
 
 <div class="card-deck text-center">
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/invidious.png" class="card-img-top" alt="Invidious's Logo">
+      <img src="images/invidious.png" class="card-img" alt="Invidious's Logo">
       <br><br>
       <h5 class="card-title">Invidious</h5>
       <p class="card-text">Invidious is a way to use YouTube without being tracked.</p>
       <p class="card-text"><code>Donators only</code></p>
-      <a href="https://pussthecat.org/invidious/" class="stretched-link"></a>
+      <a href="https://pussthecat.org/invidious/" class="stretched-link" aria-label="Invidious"></a>
     </div>
   </div>
 <!--
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/nitter.png" class="card-img-top" >
+      <img src="images/nitter.png" class="card-img" alt="Nitter's Logo">
       <br><br>
       <h5 class="card-title">Nitter</h5>
       <p class="card-text">Nitter is a way to use Twitter without being tracked.</p>
-      <a href="https://nitter.pussthecat.org" class="stretched-link"></a>
+      <a href="https://nitter.pussthecat.org" class="stretched-link" aria-label="Nitter"></a>
     </div>
   </div>
 -->
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <!-- <img src="images/searx.png" class="card-img-top" > -->
-      <img src="images/searxng.svg" class="card-img-top" alt="SearXNG's Logo" width="250">
+      <!-- <img src="images/searx.png" class="card-img" alt="SearX's Logo"> -->
+      <img src="images/searxng.svg" class="card-img" alt="SearXNG's Logo" width="250">
       <br><br>
       <h5 class="card-title">SearXNG</h5>
       <p class="card-text">SearXNG is a way to use any search engine without being tracked.</p>
       <p class="card-text"><code>Donators only</code></p>
-      <a href="https://pussthecat.org/searx/" class="stretched-link"></a>
+      <a href="https://pussthecat.org/searx/" class="stretched-link" aria-label="SearXNG"></a>
     </div>
   </div>
 <!--
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/teddit.png" class="card-img-top" >
+      <img src="images/teddit.png" class="card-img" alt="Teddit's Logo">
       <br><br>
       <h5 class="card-title">Teddit</h5>
       <p class="card-text">Teddit is a way to use Reddit without being tracked.</p>
-      <a href="https://teddit.pussthecat.org" class="stretched-link"></a>
+      <a href="https://teddit.pussthecat.org" class="stretched-link" aria-label="Teddit"></a>
     </div>
   </div>
 -->
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <!-- <img src="images/redlib.png" class="card-img-top" > -->
-      <img src="images/redlib.svg" class="card-img-top" alt="Redlib's Logo" width="250">
+      <!-- <img src="images/redlib.png" class="card-img" alt="Redlib's Logo"> -->
+      <img src="images/redlib.svg" class="card-img" alt="Redlib's Logo" width="250">
     <br><br>
       <h5 class="card-title">Redlib</h5>
       <p class="card-text">Redlib is a way to use Reddit without being tracked.</p>
-      <a href="https://redlib.pussthecat.org" class="stretched-link"></a>
+      <a href="https://redlib.pussthecat.org" class="stretched-link" aria-label="Redlib"></a>
     </div>
   </div>
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <!-- <img src="images/mozhi.png" class="card-img-top" > -->
-      <img src="images/mozhi-pathd.svg" class="card-img-top" alt="Mozhi's Logo" width="250">
+      <!-- <img src="images/mozhi.png" class="card-img" alt="Mozhi's Logo"> -->
+      <img src="images/mozhi-pathd.svg" class="card-img" alt="Mozhi's Logo" width="250">
       <br><br>
       <h5 class="card-title">Mozhi</h5>
       <p class="card-text">Mozhi is a way to use Google Translate, DeepL, DuckDuckGo, MyMemory, Reverso and Yandex without being tracked.</p>
-      <a href="https://mozhi.pussthecat.org" class="stretched-link"></a>
+      <a href="https://mozhi.pussthecat.org" class="stretched-link" aria-label="Mozhi"></a>
     </div>
   </div>
 
@@ -125,72 +125,72 @@
 
 <div class="card-deck text-center">
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <!-- <img src="images/rimgo.png" class="card-img-top" > -->
-      <img src="images/rimgo.svg" class="card-img-top" alt="rimgo's Logo" width="250">
+      <!-- <img src="images/rimgo.png" class="card-img" alt="rimgo's Logo"> -->
+      <img src="images/rimgo.svg" class="card-img" alt="rimgo's Logo" width="250">
       <br><br>
       <h5 class="card-title">rimgo</h5>
       <p class="card-text">rimgo is a way to use Imgur without being tracked.</p>
-      <a href="https://rimgo.pussthecat.org" class="stretched-link"></a>
+      <a href="https://rimgo.pussthecat.org" class="stretched-link" aria-label="rimgo"></a>
     </div>
   </div>
 <!--
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      !-- <img src="images/librarian.png" class="card-img-top" > --
-      <img src="images/librarian.svg" class="card-img-top" alt="Librarian's Logo" width="250">
+      !-- <img src="images/librarian.png" class="card-img" alt="Librarian's Logo"> --
+      <img src="images/librarian.svg" class="card-img" alt="Librarian's Logo" width="250">
       <br><br>
       <h5 class="card-title">Librarian</h5>
       <p class="card-text">Librarian is a way to use Odysee (LBRY) without being tracked.</p>
-      <a href="https://librarian.pussthecat.org" class="stretched-link"></a>
+      <a href="https://librarian.pussthecat.org" class="stretched-link" aria-label="Librarian"></a>
     </div>
   </div>
 -->
 
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/scribe.png" class="card-img-top" alt="Scribe's Logo">
+      <img src="images/scribe.png" class="card-img" alt="Scribe's Logo">
       <br><br>
       <h5 class="card-title">Scribe</h5>
       <p class="card-text">Scribe is a way to use Medium without being tracked.</p>
-      <a href="https://scribe.pussthecat.org" class="stretched-link"></a>
+      <a href="https://scribe.pussthecat.org" class="stretched-link" aria-label="Scribe"></a>
     </div>
   </div>
 <!--
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/proxitok.png" class="card-img-top" >
+      <img src="images/proxitok.png" class="card-img" alt="ProxiTok's Logo">
       <br><br>
       <h5 class="card-title">ProxiTok</h5>
       <p class="card-text">ProxiTok is a way to use TikTok without being tracked.</p>
-      <a href="https://proxitok.pussthecat.org" class="stretched-link"></a>
+      <a href="https://proxitok.pussthecat.org" class="stretched-link" aria-label="ProxiTok"></a>
     </div>
   </div>
 -->
 
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <!-- <img src="images/libremdb.png" class="card-img-top" > -->
-      <img src="images/libremdb.svg" class="card-img-top" alt="Libremdb's Logo" width="250">
+      <!-- <img src="images/libremdb.png" class="card-img" alt="Libremdb's Logo"> -->
+      <img src="images/libremdb.svg" class="card-img" alt="Libremdb's Logo" width="250">
       <br><br>
       <h5 class="card-title">Libremdb</h5>
       <p class="card-text">Libremdb is a way to use IMDB without being tracked.</p>
-      <a href="https://libremdb.pussthecat.org" class="stretched-link"></a>
+      <a href="https://libremdb.pussthecat.org" class="stretched-link" aria-label="Libremdb"></a>
     </div>
   </div>
 
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <!-- <img src="images/breezewiki.png" class="card-img-top" > -->
-      <img src="images/breezewiki.svg" class="card-img-top" alt="BreezeWiki's Logo" width="250">
+      <!-- <img src="images/breezewiki.png" class="card-img" alt="BreezeWiki's Logo"> -->
+      <img src="images/breezewiki.svg" class="card-img" alt="BreezeWiki's Logo" width="250">
       <br><br>
       <h5 class="card-title">BreezeWiki</h5>
       <p class="card-text">BreezeWiki is a way to use Fandom without being tracked.</p>
-      <a href="https://breezewiki.pussthecat.org" class="stretched-link"></a>
+      <a href="https://breezewiki.pussthecat.org" class="stretched-link" aria-label="BreezeWiki"></a>
     </div>
   </div>
 
@@ -207,66 +207,66 @@
 <div class="card-deck text-center">
 
 <!--
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      !-- <img src="images/quetre.png" class="card-img-top" > --
-      <img src="images/quetre.svg" class="card-img-top" alt="Quetre's Logo" width="250">
+      !-- <img src="images/quetre.png" class="card-img" alt="Quetre's Logo"> --
+      <img src="images/quetre.svg" class="card-img" alt="Quetre's Logo" width="250">
       <br><br>
       <h5 class="card-title">Quetre</h5>
       <p class="card-text">Quetre is a way to use Quora without being tracked.</p>
-      <a href="https://quetre.pussthecat.org" class="stretched-link"></a>
+      <a href="https://quetre.pussthecat.org" class="stretched-link" aria-label="Quetre"></a>
     </div>
   </div>
 -->
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/priviblur.png" class="card-img-top" alt="Priviblur's Logo">
+      <img src="images/priviblur.png" class="card-img" alt="Priviblur's Logo">
       <br><br>
       <h5 class="card-title">Priviblur</h5>
       <p class="card-text">Priviblur is a way to use Tumblr without being tracked.</p>
-      <a href="https://priviblur.pussthecat.org" class="stretched-link"></a>
+      <a href="https://priviblur.pussthecat.org" class="stretched-link" aria-label="Priviblur"></a>
     </div>
   </div>
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/more.png" class="card-img-top" alt="">
+      <img src="images/more.png" class="card-img" alt="">
       <br><br>
       <h5 class="card-title">More</h5>
       <p class="card-text">Coming Soon</p>
-      <a href="#" class="stretched-link"></a>
+      <a href="#" class="stretched-link" aria-label="More"></a>
     </div>
   </div>
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/more.png" class="card-img-top" alt="">
+      <img src="images/more.png" class="card-img" alt="">
       <br><br>
       <h5 class="card-title">More</h5>
       <p class="card-text">Coming Soon</p>
-      <a href="#" class="stretched-link"></a>
+      <a href="#" class="stretched-link" aria-label="More"></a>
     </div>
   </div>
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/more.png" class="card-img-top" alt="">
+      <img src="images/more.png" class="card-img" alt="">
       <br><br>
       <h5 class="card-title">More</h5>
       <p class="card-text">Coming Soon</p>
-      <a href="#" class="stretched-link"></a>
+      <a href="#" class="stretched-link" aria-label="More"></a>
     </div>
   </div>
 
 <!--
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/more.png" class="card-img-top" alt="">
+      <img src="images/more.png" class="card-img" alt="">
       <br><br>
       <h5 class="card-title">More</h5>
       <p class="card-text">Coming Soon</p>
-      <a href="#" class="stretched-link"></a>
+      <a href="#" class="stretched-link" aria-label="More"></a>
     </div>
   </div>
 -->
@@ -278,80 +278,80 @@
 <!--
 <section id="game-servers">
     <div class="container">
-        <h2 class="text-center mb-0 my-5"><b>Game Servers:</b></h2>
+        <h2 class="text-center mb-0 my-5 text-3xl font-bold"><b>Game Servers:</b></h2>
 
 <div class="card-deck text-center">
 
 ---
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/insurgency.png" class="card-img-top" >
+      <img src="images/insurgency.png" class="card-img" alt="Insurgency's Logo">
       <br><br>
       <h5 class="card-title">Insurgency</h5>
       <br>
       <p class="card-text">Insurgency is a tactical first-person shooter developed and published by New World Interactive.</p>
       <p class="card-text"><code>Server name: [FR-EN] Insurgency by PussTheCat.org</code></p>
-      <a href="#" class="stretched-link"></a>
+      <a href="#" class="stretched-link" aria-label="Insurgency"></a>
     </div>
   </div>
 ---
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/ktk.png" class="card-img-top" >
+      <img src="images/ktk.png" class="card-img" alt="Call of Duty 4 - Kill the King's Logo">
       <br><br>
       <h5 class="card-title">Call of Duty 4 - Kill the King</h5>
       <br>
       <p class="card-text">Kill the King (KtK) is a mod which changes the COD4 experience dramatically by dividing teams in two groups - assassins and guardians. At first, one lone assassin must try to kill the king - whilst avoiding the guardians. Killing a guardian will respawn him as an assassin, who can then help to kill the King.</p>
       <p class="card-text"><code>Server address: 49.13.21.77:28960</code></p>
-      <a href="https://pussthecat.org/cod4/" class="stretched-link"></a>
+      <a href="https://pussthecat.org/cod4/" class="stretched-link" aria-label="Call of Duty 4 - Kill the King"></a>
     </div>
   </div>
 
 ---
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/theisle.png" class="card-img-top" >
+      <img src="images/theisle.png" class="card-img" alt="The Isle's Logo">
       <br><br>
       <h5 class="card-title">The Isle</h5>
       <p class="card-text">The Isle is an open world survival where you play dinosaurs developed and published by Afterthought LLC.</p>
       <p class="card-text"><code>Server name: [FR-EN] The Isle by PussTheCat.org</code></p>
-      <a href="#" class="stretched-link"></a>
+      <a href="#" class="stretched-link" aria-label="The Isle"></a>
     </div>
   </div>
 ---
 
 ---
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/minecraft.png" class="card-img-top" >
+      <img src="images/minecraft.png" class="card-img" alt="Minecraft's Logo">
       <br><br>
       <h5 class="card-title">Minecraft</h5>
       <p class="card-text">Minecraft is a sandbox video game developed by Mojang Studios.</p>
       <p class="card-text"><code>Click for more informations</code></p>
-      <a href="https://pussthecat.org/minecraft/" class="stretched-link"></a>
+      <a href="https://pussthecat.org/minecraft/" class="stretched-link" aria-label="Minecraft"></a>
     </div>
   </div>
 ---
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/more.png" class="card-img-top" alt="">
+      <img src="images/more.png" class="card-img" alt="">
       <br><br>
       <h5 class="card-title">More</h5>
       <p class="card-text">Coming Soon</p>
       <p class="card-text"><code></code></p>
-      <a href="#" class="stretched-link"></a>
+      <a href="#" class="stretched-link" aria-label="More"></a>
     </div>
   </div>
 
-  <div class="card text-white bg-dark" style="width: 18rem">
+  <div class="card">
     <div class="card-body">
-      <img src="images/more.png" class="card-img-top" alt="">
+      <img src="images/more.png" class="card-img" alt="">
       <br><br>
       <h5 class="card-title">More</h5>
       <p class="card-text">Coming Soon</p>
       <p class="card-text"><code></code></p>
-      <a href="#" class="stretched-link"></a>
+      <a href="#" class="stretched-link" aria-label="More"></a>
     </div>
   </div>
 </div>
@@ -361,17 +361,20 @@
 -->
 
 <br><br><br>
-<footer class="py-5 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center"><a href="https://pussthecat.org/about/" class="m-0 text-white">ABOUT</a></p>
-        <p class="m-0 alignleft"><a href="https://pussthecat.org/tos/" class="m-0 text-white">TERMS OF SERVICE</a></p>
-        <p class="m-0 alignright"><a href="https://pussthecat.org/privacy/" class="m-0 text-white">PRIVACY POLICY</a></p>
-        <br><br><br>
-        <div class="text-muted text-center">Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="text-white">CC BY-NC-SA 4.0</a></div>
-        <br>
-        <div class="text-muted text-center">Source Code: <a href="https://github.com/PussTheCat-org/PussTheCat.org" class="text-white">Available Here</a></div>
-        <div class="text-muted text-center">Configuration Files: <a href="https://github.com/PussTheCat-org/PussTheCat.org-Configs" class="text-white">Available Here</a></div>
+
+<footer class="footer py-8">
+  <div class="container">
+    <div class="footer-row">
+      <p><a href="https://pussthecat.org/tos/">TERMS OF SERVICE</a></p>
+      <p><a href="https://pussthecat.org/about/">ABOUT</a></p>
+      <p><a href="https://pussthecat.org/privacy/">PRIVACY POLICY</a></p>
     </div>
+    <div class="footer-copy text-center">
+      <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+      <p>Source Code: <a href="https://github.com/PussTheCat-org/PussTheCat.org">Available Here</a></p>
+      <p>Configuration Files: <a href="https://github.com/PussTheCat-org/PussTheCat.org-Configs">Available Here</a></p>
+    </div>
+  </div>
 </footer>
 
 </body>

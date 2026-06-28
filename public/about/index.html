@@ -6,24 +6,24 @@
   <meta name="description" content="PussTheCat.org provides access to open source services that are focused on privacy and video games servers.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../style/bootstrap.css">
-  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/tailwind.css">
 </head>
 
 <body>
-<nav class="navbar navbar-dark bg-dark navbar-expand fixed-top">
+
+<nav class="navbar fixed top-0 inset-x-0 z-50 backdrop-blur">
   <div class="container">
     <a class="navbar-brand" href="https://pussthecat.org/">PussTheCat.org</a>
     <ul class="navbar-nav">
-      <a class="nav-link" href="https://thefrenchghosty.me/">TheFrenchGhosty's Website</a>
+      <li><a class="nav-link" href="https://thefrenchghosty.me/">TheFrenchGhosty's Website</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="container">
-<div class="jumbotron my-5 bg-dark">
+<div class="jumbotron my-8">
   <div class="container">
-    <h1 class="display-4"><strong>About</strong></h1>
+    <h1 class="text-4xl font-bold tracking-tight"><strong>About</strong></h1>
     <p class="lead"><strong>This is the page that contain everything you need to know about PussTheCat.org:</strong></p>
   </div>
 </div>
@@ -50,7 +50,7 @@
 <br>
 
 <!-- https://stackoverflow.com/a/41220875-->
-PussTheCat.org is named after <label class="text-muted" for="my_checkbox">this</label> guy.
+PussTheCat.org is named after <label class="link-like" for="my_checkbox">this</label> guy.
 <input type="checkbox" id="my_checkbox" style="display:none;">
 <div id="hidden"><img width="40%" src="../images/puss.jpg"></div>
 
@@ -59,28 +59,28 @@ PussTheCat.org is named after <label class="text-muted" for="my_checkbox">this</
 <br>
 
 <h2 class="text-center mb-0 my-4"><b>Contact:</b></h2>
-    <li>Public Matrix discussion and status room: <a class="text-muted" href="https://matrix.to/#/#pussthecat.org:pussthecat.org">#pussthecat.org:pussthecat.org</a></li>
+    <li>Public Matrix discussion and status room: <a  href="https://matrix.to/#/#pussthecat.org:pussthecat.org">#pussthecat.org:pussthecat.org</a></li>
     <br>
     <li>Matrix (preferred): [at] thefrenchghosty [colon] pussthecat [dot] org</li>
     <li>XMPP (use either OMEMO or unencrypted): thefrenchghosty [at] disroot [dot] org</li>
     <li>E-mail: contact [at] pussthecat [dot] org</li>
-    <li>Fediverse: <a class="text-muted" href="https://libretooth.gr/@TheFrenchGhosty">@TheFrenchGhosty@libretooth.gr</a></li>
+    <li>Fediverse: <a  href="https://libretooth.gr/@TheFrenchGhosty">@TheFrenchGhosty@libretooth.gr</a></li>
     
 <br>
 <br>
 
 <h2 class="text-center mb-0 my-4"><b>Donate:</b></h2>
-  <li>Donations method and overview of costs are available <a class="text-muted word-wrap" href=https://pussthecat.org/donate/>here</a>.</li>
+  <li>Donations method and overview of costs are available <a class="word-wrap" href="https://pussthecat.org/donate/">here</a>.</li>
   
 <br>
 <br>
 
 <h2 class="text-center mb-0 my-4"><b>Credits:</b></h2>
   <li>Cadence (cloudrac3r): Help with NGINX, gave me the code to anonymize the IP addresses in it.</li>
-  <li><a class="text-muted" href="https://github.com/Perflyst">Perflyst</a>: Massive amount of help with NGINX and IPTables.</li>
-  <li><a class="text-muted" href="https://github.com/B0pol">Bopol</a>: Help with the testing of this website (mainly on mobile), is the reason why this website is usable on mobile today.</li>
+  <li><a  href="https://github.com/Perflyst">Perflyst</a>: Massive amount of help with NGINX and IPTables.</li>
+  <li><a  href="https://github.com/B0pol">Bopol</a>: Help with the testing of this website (mainly on mobile), is the reason why this website is usable on mobile today.</li>
   <br>
-  <li>Favicon and logo roughly based on "09_minion_03_x.png" from "<a class="text-muted" href="https://beowulf.itch.io/rpg-boss-monsters-minions-huge-pack">Beowulf's RPG Boss Monsters & Minions Pack</a>" by Beowulf used with <a class="text-muted" href="https://itch.io/post/1524132">license</a>.</li>
+  <li>Favicon and logo roughly based on "09_minion_03_x.png" from "<a  href="https://beowulf.itch.io/rpg-boss-monsters-minions-huge-pack">Beowulf's RPG Boss Monsters & Minions Pack</a>" by Beowulf used with <a  href="https://itch.io/post/1524132">license</a>.</li>
 
 </div>
 </section>
@@ -89,17 +89,19 @@ PussTheCat.org is named after <label class="text-muted" for="my_checkbox">this</
 <br>
 <br>
 
-<footer class="py-5 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center"><a href="#" class="m-0 text-white">ABOUT</a></p>
-        <p class="m-0 alignleft"><a href="https://pussthecat.org/tos/" class="m-0 text-white">TERMS OF SERVICE</a></p>
-        <p class="m-0 alignright"><a href="https://pussthecat.org/privacy/" class="m-0 text-white">PRIVACY POLICY</a></p>
-        <br><br><br>
-        <div class="text-muted text-center">Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="text-white">CC BY-NC-SA 4.0</a></div>
-        <br>
-        <div class="text-muted text-center">Source Code: <a href="https://github.com/PussTheCat-org/PussTheCat.org" class="text-white">Available Here</a></div>
-        <div class="text-muted text-center">Configuration Files: <a href="https://github.com/PussTheCat-org/PussTheCat.org-Configs" class="text-white">Available Here</a></div>
+<footer class="footer py-8">
+  <div class="container">
+    <div class="footer-row">
+      <p><a href="https://pussthecat.org/tos/">TERMS OF SERVICE</a></p>
+      <p><a href="#">ABOUT</a></p>
+      <p><a href="https://pussthecat.org/privacy/">PRIVACY POLICY</a></p>
     </div>
+    <div class="footer-copy text-center">
+      <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+      <p>Source Code: <a href="https://github.com/PussTheCat-org/PussTheCat.org">Available Here</a></p>
+      <p>Configuration Files: <a href="https://github.com/PussTheCat-org/PussTheCat.org-Configs">Available Here</a></p>
+    </div>
+  </div>
 </footer>
 
 </body>
