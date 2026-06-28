@@ -268,14 +268,14 @@ code {
   border: 1px solid var(--border);
   border-top: none;
   border-radius: 0 0 1rem 1rem;
-  padding: 2rem;
+  padding: calc(56px + 2rem) 2rem 2rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
   margin-top: 0;
 }
 
 @media (min-width: 768px) {
   .jumbotron {
-    padding: 3rem;
+    padding: calc(56px + 3rem) 3rem 3rem;
   }
 }
 
@@ -421,11 +421,6 @@ code {
 
 .footer-copy a:hover {
   color: var(--accent);
-}
-
-/* page-top padding for fixed navbar */
-.pt-nav {
-  padding-top: 56px;
 }
 
 /* Word wrap helper preserved from original style.css */
