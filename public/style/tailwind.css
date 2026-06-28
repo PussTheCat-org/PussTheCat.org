@@ -38,14 +38,15 @@ h1, h2, h3, h4, h5, p {
   margin: 0;
 }
 
-a {
+a, .link-like {
   color: var(--accent);
   text-decoration: none;
 }
 
-a:hover {
+a:hover, .link-like:hover {
   color: var(--accent-hover);
   text-decoration: underline;
+  cursor: pointer;
 }
 
 img {
@@ -66,11 +67,34 @@ code {
 
 .container {
   width: 100%;
-  max-width: 80rem;
-  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }
 
 /* Display */
