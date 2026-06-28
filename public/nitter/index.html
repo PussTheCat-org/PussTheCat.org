@@ -6,25 +6,24 @@
   <meta name="description" content="PussTheCat.org provides access to open source services that are focused on privacy and video games servers.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../style/bootstrap.css">
-  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/tailwind.css">
 </head>
 
-<body>
-<nav class="navbar navbar-dark bg-dark navbar-expand fixed-top">
+<body class="pt-nav">
+<nav class="navbar fixed top-0 inset-x-0 z-50 backdrop-blur">
   <div class="container">
     <a class="navbar-brand" href="https://pussthecat.org/">PussTheCat.org</a>
     <ul class="navbar-nav">
-      <a class="nav-link" href="https://thefrenchghosty.me/">TheFrenchGhosty's Website</a>
+      <li><a class="nav-link" href="https://thefrenchghosty.me/">TheFrenchGhosty's Website</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="container">
-<div class="jumbotron my-5 bg-dark">
+<div class="jumbotron my-8">
   <div class="container">
-    <h1 class="display-4"><strong>Shutdown</strong></h1>
-  <p class="align-self-center my-2 word-wrap">Nitter has been shut down.</p>
+    <h1 class="text-4xl font-bold tracking-tight"><strong>Shutdown</strong></h1>
+  <p class="self-center my-2 word-wrap">Nitter has been shut down.</p>
   </div>
 </div>
 </div>
@@ -39,7 +38,7 @@
 <br>
 
 <h2 class="text-center mb-0 my-4"><b>Why:</b></h2>
-  <p>On February 9, 2023 a UK non-profit (The Internet Watch Foundation / IWF) discovered some illegal content (<a class="text-muted word-wrap" href="https://www.urbandictionary.com/define.php?term=cp">CP</a> to be exact) being hosted on Twitter (and viewable via our Nitter instance). <code>(Note: It wasn't "discovered" per se, it was reported to them by someone)</code></p>
+  <p>On February 9, 2023 a UK non-profit (The Internet Watch Foundation / IWF) discovered some illegal content (<a class="word-wrap" href="https://www.urbandictionary.com/define.php?term=cp">CP</a> to be exact) being hosted on Twitter (and viewable via our Nitter instance). <code>(Note: It wasn't "discovered" per se, it was reported to them by someone)</code></p>
   <br>
   <p>The UK non-profit AUTOMATICALLY contacted contacted our registry (PIR / .org), our registry then contacted our registrar.</p>
   <br>
@@ -53,7 +52,7 @@
   <p>Our registry, PIR, gave us 96 days to "remove" the content.</p>
   <br><br>
   <p>The rare copyright takedown requests were a problem, but were easy to solve, but here it went too far.</p>
-  <p>It was supposed to be "fun", to be a work of love, at no point was I making any money on this - the <a class="text-muted word-wrap" href="https://pussthecat.org/donate/">donations</a> obviously help (massive thanks to the people who donate), but don't even cover the server expenses.</p>
+  <p>It was supposed to be "fun", to be a work of love, at no point was I making any money on this - the <a class="word-wrap" href="https://pussthecat.org/donate/">donations</a> obviously help (massive thanks to the people who donate), but don't even cover the server expenses.</p>
   <p>The stress and effort spent on Nitter (a service I personally barely use) simply isn't worth it, I'm not here to moderate the content Twitter isn't moderating, especially not for free.</p>
   <p>The Nitter instance has therefore been shutdown permanently.</p>
 
@@ -61,7 +60,7 @@
 
 <h2 class="text-center mb-0 my-4"><b>Nitter (in french):</b></h2>
 
-<p>nitter.pussthecat.org hébergeait précédemment <a class="text-muted word-wrap" href="https://github.com/zedeus/nitter">Nitter</a>. Nitter est une interface alternative et open source a Twitter, c'est uniquement un proxy pour acceder aux données et aux contenu utilisateur hébergé sur Twitter, sans pour autant être "pisté" par Twitter pour l'utilisateur. De ce fait, tout le contenu visible sur le site est "proxyfié", le site n'étant qu'un intermédiaire entre l'utilisateur et Twitter. Aucune donnée n'est hébergée sur le serveur, tout le contenu provient des serveurs de Twitter. PussTheCat.org n'as aucun pouvoir sur le contenu hébergé sur Twitter et ne peut, en conséquence supprimer aucun contenu (si ce n'est bloquer l'accès à des liens spécifiques, du cas par cas, normalement inutile grace à la modération twitter). Si notre instance Nitter venait à fermer, aucun changement ne se ferait sentir concernant l'accès à de potentiels contenus illégaux, remplacer l'url "nitter.pussthecat.org" par "twitter.com" (ou tout <a class="text-muted word-wrap" href="https://github.com/zedeus/nitter/wiki/Instances">autre instances</a> Nitter) redonnerais accès au contenu directement. Pour toute question, je suis disponible par e-mail.</p>
+<p>nitter.pussthecat.org hébergeait précédemment <a class="word-wrap" href="https://github.com/zedeus/nitter">Nitter</a>. Nitter est une interface alternative et open source a Twitter, c'est uniquement un proxy pour acceder aux données et aux contenu utilisateur hébergé sur Twitter, sans pour autant être "pisté" par Twitter pour l'utilisateur. De ce fait, tout le contenu visible sur le site est "proxyfié", le site n'étant qu'un intermédiaire entre l'utilisateur et Twitter. Aucune donnée n'est hébergée sur le serveur, tout le contenu provient des serveurs de Twitter. PussTheCat.org n'as aucun pouvoir sur le contenu hébergé sur Twitter et ne peut, en conséquence supprimer aucun contenu (si ce n'est bloquer l'accès à des liens spécifiques, du cas par cas, normalement inutile grace à la modération twitter). Si notre instance Nitter venait à fermer, aucun changement ne se ferait sentir concernant l'accès à de potentiels contenus illégaux, remplacer l'url "nitter.pussthecat.org" par "twitter.com" (ou tout <a class="word-wrap" href="https://github.com/zedeus/nitter/wiki/Instances">autre instances</a> Nitter) redonnerais accès au contenu directement. Pour toute question, je suis disponible par e-mail.</p>
 
 </div>
 </section>
@@ -70,17 +69,19 @@
 <br>
 <br>
 
-<footer class="py-5 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center"><a href="https://pussthecat.org/about/" class="m-0 text-white">ABOUT</a></p>
-        <p class="m-0 alignleft"><a href="https://pussthecat.org/tos/" class="m-0 text-white">TERMS OF SERVICE</a></p>
-        <p class="m-0 alignright"><a href="https://pussthecat.org/privacy/" class="m-0 text-white">PRIVACY POLICY</a></p>
-        <br><br><br>
-        <div class="text-muted text-center">Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="text-white">CC BY-NC-SA 4.0</a></div>
-        <br>
-        <div class="text-muted text-center">Source Code: <a href="https://github.com/PussTheCat-org/PussTheCat.org" class="text-white">Available Here</a></div>
-        <div class="text-muted text-center">Configuration Files: <a href="https://github.com/PussTheCat-org/PussTheCat.org-Configs" class="text-white">Available Here</a></div>
+<footer class="footer py-8">
+  <div class="container">
+    <div class="footer-row">
+      <p><a href="https://pussthecat.org/tos/">TERMS OF SERVICE</a></p>
+      <p><a href="https://pussthecat.org/about/">ABOUT</a></p>
+      <p><a href="https://pussthecat.org/privacy/">PRIVACY POLICY</a></p>
     </div>
+    <div class="footer-copy text-center">
+      <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+      <p>Source Code: <a href="https://github.com/PussTheCat-org/PussTheCat.org">Available Here</a></p>
+      <p>Configuration Files: <a href="https://github.com/PussTheCat-org/PussTheCat.org-Configs">Available Here</a></p>
+    </div>
+  </div>
 </footer>
 
 </body>

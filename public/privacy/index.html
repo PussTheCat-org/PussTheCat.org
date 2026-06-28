@@ -6,24 +6,23 @@
   <meta name="description" content="PussTheCat.org provides access to open source services that are focused on privacy and video games servers."/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../style/bootstrap.css">
-  <link rel="stylesheet" href="../style/style.css">
+  <link rel="stylesheet" href="../style/tailwind.css">
 </head>
 
-<body>
-<nav class="navbar navbar-dark bg-dark navbar-expand fixed-top">
+<body class="pt-nav">
+<nav class="navbar fixed top-0 inset-x-0 z-50 backdrop-blur">
   <div class="container">
     <a class="navbar-brand" href="https://pussthecat.org/">PussTheCat.org</a>
     <ul class="navbar-nav">
-      <a class="nav-link" href="https://thefrenchghosty.me/">TheFrenchGhosty's Website</a>
+      <li><a class="nav-link" href="https://thefrenchghosty.me/">TheFrenchGhosty's Website</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="container">
-<div class="jumbotron my-5 bg-dark">
+<div class="jumbotron my-8">
   <div class="container">
-    <h1 class="display-4"><strong>Privacy Policy</strong></h1>
+    <h1 class="text-4xl font-bold tracking-tight"><strong>Privacy Policy</strong></h1>
     <p class="lead"><strong>This page list what each public services and game servers hosted on PussTheCat.org collect:</strong></p>
   </div>
 </div>
@@ -154,7 +153,7 @@ If you click the close button on the banner or enter the code, a cookie named <c
 <br>
 <h2 class="text-center mb-0 my-5"><b>Use:</b></h2>
 <ul>
-  <li>The only thing the NGINX logs are used for is counting requests. See the <a href="https://pussthecat.org/stats/" class="m-0 text-muted">Stats</a> page.</li>
+  <li>The only thing the NGINX logs are used for is counting requests. See the <a href="https://pussthecat.org/stats/" >Stats</a> page.</li>
   <li>The only thing the software logs are used for is debugging and/or bug reports.</li>
 </ul>
 
@@ -178,22 +177,24 @@ If you click the close button on the banner or enter the code, a cookie named <c
 <br>
 
 <h2 class="text-center mb-0 my-5"><b>Contact:</b></h2>
-<p>See the <a href="https://pussthecat.org/about/" class="m-0 text-muted">About</a> page.</p>
+<p>See the <a href="https://pussthecat.org/about/" >About</a> page.</p>
     </div>
 </section>
 
 <br><br><br>
-<footer class="py-5 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center"><a href="https://pussthecat.org/about/" class="m-0 text-white">ABOUT</a></p>
-        <p class="m-0 alignleft"><a href="https://pussthecat.org/tos/" class="m-0 text-white">TERMS OF SERVICE</a></p>
-        <p class="m-0 alignright"><a href="#" class="m-0 text-white">PRIVACY POLICY</a></p>
-        <br><br><br>
-        <div class="text-muted text-center">Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="text-white">CC BY-NC-SA 4.0</a></div>
-        <br>
-        <div class="text-muted text-center">Source Code: <a href="https://github.com/PussTheCat-org/PussTheCat.org" class="text-white">Available Here</a></div>
-        <div class="text-muted text-center">Configuration Files: <a href="https://github.com/PussTheCat-org/PussTheCat.org-Configs" class="text-white">Available Here</a></div>
+<footer class="footer py-8">
+  <div class="container">
+    <div class="footer-row">
+      <p><a href="https://pussthecat.org/tos/">TERMS OF SERVICE</a></p>
+      <p><a href="https://pussthecat.org/about/">ABOUT</a></p>
+      <p><a href="#">PRIVACY POLICY</a></p>
     </div>
+    <div class="footer-copy text-center">
+      <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+      <p>Source Code: <a href="https://github.com/PussTheCat-org/PussTheCat.org">Available Here</a></p>
+      <p>Configuration Files: <a href="https://github.com/PussTheCat-org/PussTheCat.org-Configs">Available Here</a></p>
+    </div>
+  </div>
 </footer>
 
 </body>
