@@ -477,3 +477,32 @@ code {
 :checked + #hidden {
   display: block;
 }
+
+h2[id], h4[id] {
+  scroll-margin-top: 80px;
+}
+
+.anchor-link {
+  opacity: 0;
+  color: var(--accent);
+  text-decoration: none;
+  margin-left: 0.25em;
+  font-weight: normal;
+  transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.anchor-link:hover {
+  color: var(--accent-hover);
+  text-decoration: none;
+}
+
+h2:hover .anchor-link,
+h4:hover .anchor-link {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .anchor-link {
+    opacity: 1;
+  }
+}
