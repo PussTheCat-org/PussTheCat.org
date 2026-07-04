@@ -144,6 +144,7 @@ function injectBanner() {
       <a href="https://pussthecat.org/donate" style="color: #ffffff; text-decoration: none; border-bottom: solid #ffffff 1px;">Click here to donate!</a>
       <a href="#" id="donation-link" style="color: #ffffff; text-decoration: none; border-bottom: solid #ffffff 1px; font-size: 11px !important; margin: 0 0 0 0.5cm;">Already donated? Click here to permanently disable the banner (requires a code)</a>
     </p>
+    <p style="margin: 5px 0 0 0; text-align: center;">The <a href="https://pussthecat.org" style="color: #ffffff; text-decoration: none; border-bottom: solid #ffffff 1px;">PussTheCat.org</a> website has been redesigned, check it out!</p>
 
   `;
   banner.appendChild(contentDiv);
