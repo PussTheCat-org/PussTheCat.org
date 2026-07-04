@@ -442,14 +442,19 @@ code {
 
 .footer-row {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: center;
+  gap: 1rem 1.5rem;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
 }
 
 .footer-row p {
   margin: 0;
+}
+
+.footer-row p:first-child {
+  flex: 0 0 100%;
+  text-align: center;
 }
 
 .footer-copy {
