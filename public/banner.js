@@ -102,19 +102,19 @@ function injectBanner() {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #1f2022;
-    color: white;
+    background-color: #363a4f;
+    color: #ffffff;
     text-align: left;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
+    border-bottom: 1px solid #5b6078;
     z-index: 10000;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Liberation Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.2;
     font-size: 18px;
-    letter-spacing: 0.5px;
   `;
 
   // Apply the same font to all elements within the banner
@@ -123,27 +123,35 @@ function injectBanner() {
   var bannerStyles = document.createElement("style");
   bannerStyles.innerHTML = `
     #banner, #banner * {
-      font-family: Arial, Helvetica, sans-serif !important;
+      font-family: "Liberation Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
       font-size: 18px !important;
-      color: white !important;
+      color: #ffffff !important;
       line-height: 1.2 !important;
-      letter-spacing: 0.5px !important;
+    }
+    #banner a {
+      color: #ff6a00 !important;
+      text-decoration: none !important;
+      border-bottom: 1px solid #ff6a00 !important;
+    }
+    #banner a:hover {
+      color: #ff8c33 !important;
+      border-bottom-color: #ff8c33 !important;
     }
   `;
   document.head.appendChild(bannerStyles);
 
   // Create inner content
   var contentDiv = document.createElement("div");
-  contentDiv.style = "display: flex; flex-direction: column; max-width: 80%;";
+  contentDiv.style = "display: flex; flex-direction: column; max-width: calc(100% - 50px);";
   contentDiv.innerHTML = `
     <p style="margin: 5px 0 0 0;">
-      <a href="https://pussthecat.org" style="color: #ffffff; text-decoration: none; border-bottom: solid #ffffff 1px;">PussTheCat.org</a> is proud to have been running ad-free and tracker-free since its creation in 2020. The money all comes from our own pocket and donations.
+      <a href="https://pussthecat.org">PussTheCat.org</a> is proud to have been running ad-free and tracker-free since its creation in 2020. The money all comes from our own pocket and donations.
     </p>
     <p style="margin: 5px 0 0 0;">If it is useful to you, consider donating!</p>
 <br>
     <p style="margin: 5px 0;">
-      <a href="https://pussthecat.org/donate" style="color: #ffffff; text-decoration: none; border-bottom: solid #ffffff 1px;">Click here to donate!</a>
-      <a href="#" id="donation-link" style="color: #ffffff; text-decoration: none; border-bottom: solid #ffffff 1px; font-size: 11px !important; margin: 0 0 0 0.5cm;">Already donated? Click here to permanently disable the banner (requires a code)</a>
+      <a href="https://pussthecat.org/donate">Click here to donate!</a>
+      <a href="#" id="donation-link" style="font-size: 11px !important; margin: 0 0 0 0.5cm;">Already donated? Click here to permanently disable the banner (requires a code)</a>
     </p>
   `;
   banner.appendChild(contentDiv);
@@ -157,7 +165,8 @@ function injectBanner() {
     font-size: 0;
     cursor: pointer;
     padding: 0;
-    background-color: #343232;
+    background-color: #181926;
+    flex-shrink: 0;
   `;
   closeButton.innerHTML = `
     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: white; display: block">
@@ -172,9 +181,9 @@ function injectBanner() {
   banner.appendChild(closeButton);
 
   var newwebsite = document.createElement("p");
-  newwebsite.style = "flex: 0 0 100%; text-align: center; margin: 27px 0 0 0;";
+  newwebsite.style = "flex: 0 0 100%; text-align: center; margin: 27px 0 0 0; padding: 11px 0 11px 0; border-top: 1px solid #5b6078;";
   newwebsite.innerHTML =
-    "The <a href=\"https://pussthecat.org\" style=\"color: #ff6a00 !important; text-decoration: none; border-bottom: solid #ff6a00 1px;\" onmouseover=\"this.style.setProperty('color','#ff8c33','important');this.style.borderBottomColor='#ff8c33'\" onmouseout=\"this.style.setProperty('color','#ff6a00','important');this.style.borderBottomColor='#ff6a00'\">PussTheCat.org</a> website has been redesigned, check it out!";
+    "The <a href=\"https://pussthecat.org\">PussTheCat.org</a> website has been redesigned, check it out!";
   banner.appendChild(newwebsite);
 
   document.body.appendChild(banner); // Inject the banner into the page
