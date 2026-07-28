@@ -183,7 +183,7 @@ function injectBanner() {
   var newwebsite = document.createElement("p");
   newwebsite.style = "flex: 0 0 100%; text-align: center; margin: 27px 0 0 0; padding: 11px 0 11px 0; border-top: 1px solid #5b6078;";
   newwebsite.innerHTML =
-    "<a href=\"https://pussthecat.org\">PussTheCat.org</a> has multiples new services, check it out!";
+    "<a href=\"https://pussthecat.org\">PussTheCat.org</a> has multiple new services, check it out!";
   banner.appendChild(newwebsite);
 
   document.body.appendChild(banner); // Inject the banner into the page
