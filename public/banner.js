@@ -145,7 +145,7 @@ function injectBanner() {
   contentDiv.style = "display: flex; flex-direction: column; max-width: calc(100% - 50px);";
   contentDiv.innerHTML = `
     <p style="margin: 5px 0 0 0;">
-      <a href="https://pussthecat.org">PussTheCat.org</a> is proud to have been running ad-free and tracker-free since its creation in 2020. The money all comes from our own pocket and donations.
+      <a href="https://pussthecat.org">PussTheCat.org</a> is proud to have been running ad-free and tracker-free since its creation in 2020. The money all comes from <a href="https://thefrenchghosty.me">TheFrenchGhosty</a>'s (the founder and owner of PussTheCat.org) pocket and donations.
     </p>
     <p style="margin: 5px 0 0 0;">If it is useful to you, consider donating!</p>
 <br>
@@ -183,7 +183,7 @@ function injectBanner() {
   var newwebsite = document.createElement("p");
   newwebsite.style = "flex: 0 0 100%; text-align: center; margin: 27px 0 0 0; padding: 11px 0 11px 0; border-top: 1px solid #5b6078;";
   newwebsite.innerHTML =
-    "<a href=\"https://pussthecat.org\">PussTheCat.org</a> has multiple new services, check it out!";
+    "<a href=\"https://pussthecat.org\">PussTheCat.org</a> is now <a href=\"https://pussthecat.org/2026-update/\">fully dependant on TheFrenchGhosty and his (unstable) income.</a>";
   banner.appendChild(newwebsite);
 
   document.body.appendChild(banner); // Inject the banner into the page
